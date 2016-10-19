@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0d68a490a65402c9f514e77a9420177",
+    "_src_": "up.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m1950efddc6841d0a31fb77e8b349f62",
+        "mc2738457f434a23b2d94e4523a76367"
+    ],
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "PickerView",
+        "platform": "iphone",
+        "templateType": "masters",
+        "topLevelBox": null
+    },
+    "id": "imgUp",
+    "ide_onTouchEnd": "AS_Image_c339c9f855d74b64abe496db653fe80e",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "5190280085774c54a1fe4c1298f5fc0c",
+    "name": "kony.ui.Image2",
+    "parent": "flxHour",
+    "pf": "PickerView",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

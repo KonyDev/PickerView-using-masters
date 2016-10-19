@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se049fc0e3054ef78a3f3259927a180d",
+    "_text_": "AM",
+    "_top_": {
+        "type": "string",
+        "value": "4dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m29efb18b67647b48b3f25d630d86334",
+        "mf7a5ce6e96747ce92436c239333396e"
+    ],
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lblMeridian1",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "b693a160c23a4b42b105099cb6c64554",
+    "name": "kony.ui.Label",
+    "parent": "flxSCMeridian",
+    "pf": "PickerView",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

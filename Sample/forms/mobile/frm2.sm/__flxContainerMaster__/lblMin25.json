@@ -1,0 +1,29 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc4a3699a89a456e9046949e184aa860",
+    "_srcKuid_": "5d083493c149486f91a3700e40ef4e13",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "id": "lblMin25"
+    },
+    "id": "lblMin25",
+    "instanceOf": "5d083493c149486f91a3700e40ef4e13",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m51e8f2af8cd4db59eacb9201e0b3c81",
+    "masterInstance": true,
+    "name": "kony.ui.Label",
+    "parent": "flxSCMinute",
+    "pf": "frm2",
+    "topLevelInstanceKUID": "m07602f3ab3c4764b48698e0521b2825",
+    "wType": "Label"
+}

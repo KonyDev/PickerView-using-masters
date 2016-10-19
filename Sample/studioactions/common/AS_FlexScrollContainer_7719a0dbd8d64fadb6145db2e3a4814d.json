@@ -1,0 +1,23 @@
+{
+    "AS_FlexScrollContainer_7719a0dbd8d64fadb6145db2e3a4814d": {
+        "id": "AS_FlexScrollContainer_7719a0dbd8d64fadb6145db2e3a4814d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PickerView",
+            "type": "masters",
+            "KUID": "dd443c6d40b4438fa5bbdc36c242386d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f36e0684f8944246a5585c46b368b737",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(lastOffsetMeridian ===undefined){\n  lastOffsetMeridian=0;\n}\nvar currentForm=kony.application.getCurrentForm().id;\nvar currOffsetMeridian=eval(currentForm).flxContainerMaster.flxSCMeridian.contentOffsetMeasured.y;\nvar remainder=currOffsetMeridian%45;\nif(lastOffsetMeridian<currOffsetMeridian){\n  kony.print(\"scrolled up\");\n  if(remainder<22){\n  \tcurrOffsetMeridian=currOffsetMeridian-remainder;\n  }else{\n  \tcurrOffsetMeridian=currOffsetMeridian-remainder+45;\n  }\n}else if(lastOffsetMeridian>currOffsetMeridian){\n  kony.print(\"scrolled down\");\n  if(lastOffsetMeridian==45){\n    currOffsetMeridian=0;\n  }else if(remainder<22){\n  \tcurrOffsetMeridian=currOffsetMeridian-remainder+45;\n  }else if(remainder>=22){\n  \tcurrOffsetMeridian=currOffsetMeridian-remainder;\n  }\n}\neval(currentForm).flxContainerMaster.flxSCMeridian.setContentOffset({x:\"0\",y:currOffsetMeridian}, true);\nlastOffsetMeridian=currOffsetMeridian;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

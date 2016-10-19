@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sbaf08cf6f5c4222baf5590c0bd4caa0",
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m96dd5be9629449c9f5699a59f23eb7c",
+        "m6af22eb58ac4f0193efe225a984d46e"
+    ],
+    "children": [
+        "imgUp3",
+        "flxSCMeridian",
+        "imgDown3"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxMeridian",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d56e833eb90344689aa4c3f03bbbfdf5",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBody",
+    "pf": "PickerView",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

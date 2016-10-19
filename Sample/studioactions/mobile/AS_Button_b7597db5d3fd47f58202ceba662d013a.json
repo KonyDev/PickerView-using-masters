@@ -1,0 +1,17 @@
+{
+    "AS_Button_b7597db5d3fd47f58202ceba662d013a": {
+        "id": "AS_Button_b7597db5d3fd47f58202ceba662d013a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_72452e39145b4eba83b35afba896a3b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentForm=eval(kony.application.getCurrentForm().id);\nvar offsetHr=currentForm.flxContainerMaster.flxSCHour.contentOffsetMeasured.y;\nvar offsetMn=currentForm.flxContainerMaster.flxSCMinute.contentOffsetMeasured.y;\nvar offsetMeridian=currentForm.flxContainerMaster.flxSCMeridian.contentOffsetMeasured.y;\nvar idHr=parseInt((offsetHr/45)+1, 10);\nvar idMn=parseInt((offsetMn/45)+1, 10);\nvar lblHr=\"lblHr\"+idHr;\nvar lblMn=\"lblMin\"+idMn;\nvar textHr=parseInt(currentForm.flxContainerMaster.flxSCHour[lblHr].text);\nvar textMn=parseInt(currentForm.flxContainerMaster.flxSCMinute[lblMn].text);\nvar textMeridian;\nvar selectedTime;\nif(offsetMeridian==0){\n  textMeridian=\"AM\";\n}else if(offsetMeridian==45){\n  textMeridian=\"PM\";\n}\nif(textMeridian==\"AM\"){\n  if(textHr==12){\n    textHr=00;\n  }\n}else if(textMeridian==\"PM\"){\n  if(textHr<12){\n    textHr=textHr+12;\n  }\n} \nselectedTime=textHr+\":\"+textMn+\" \"+textMeridian;\n//alert(selectedTime);\nvar targetHr,targetMin;\ntargetMin=(textMn+2)%60;\ntargetHr=(textHr+((textMn+2)/60));\nvar startDate= new Date();\nvar endDate=new Date();\nstartDate.setHours(textHr);\nstartDate.setMinutes(textMn);\nendDate.setMinutes(targetMin);\nif(targetHr>23){\n  targetHr=0;\n  endDate.setDate(startDate.getDate()+1);\n  endDate.setHours(0);\n}else{\n  endDate.setHours(targetHr);\n}\nkony.print(\"startDate: \"+startDate);\nkony.print(\"endDate: \"+endDate);\nalert(\"startDate: \"+startDate+\"\\n\"+\"endDate: \"+endDate);\n//frmHome.flxContainerMaster.flxSCMinute.contentOffsetMeasured.y;\n//frmHome.flxContainerMaster.flxSCMeridian.contentOffsetMeasured.y;\n//frmHome.flxContainerMaster.flxSCMeridian.contentOffsetMeasured.y;\n//eval(currentForm).flxContainerMaster.flxSCMinute.lblMin1.skin=\"sknLblCurrent\";",
+            "callbackType": null
+        }]
+    }
+}

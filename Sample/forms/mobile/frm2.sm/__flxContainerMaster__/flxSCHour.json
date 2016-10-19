@@ -1,0 +1,50 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1a59a6b31874136b284b04a0f8e90fa",
+    "_srcKuid_": "5b8153bf5e0e43d1932eda15035362c0",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblHr0",
+        "lblHr1",
+        "lblHr2",
+        "lblHr3",
+        "lblHr4",
+        "lblHr5",
+        "lblHr6",
+        "lblHr7",
+        "lblHr8",
+        "lblHr9",
+        "lblHr10",
+        "lblHr11",
+        "lblHr12",
+        "lblHr13"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "contentOffset": {},
+        "contentSize": {},
+        "id": "flxSCHour"
+    },
+    "id": "flxSCHour",
+    "ide_onScrollEnd": "AS_FlexScrollContainer_82385fd1f5f94280b652447f31314f3e",
+    "ide_onScrolling": "AS_FlexScrollContainer_58aad0008ca04d02b67c9d08b29c7bd8",
+    "instanceOf": "5b8153bf5e0e43d1932eda15035362c0",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mc64049b37fa4c439e4eee3eba11d928",
+    "masterInstance": true,
+    "name": "kony.ui.FlexScrollContainer",
+    "parent": "flxHour",
+    "pf": "frm2",
+    "topLevelInstanceKUID": "m07602f3ab3c4764b48698e0521b2825",
+    "vizProps": {},
+    "wType": "FlexScrollContainer"
+}

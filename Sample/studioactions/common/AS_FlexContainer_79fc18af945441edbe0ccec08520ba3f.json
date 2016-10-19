@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_79fc18af945441edbe0ccec08520ba3f": {
+        "id": "AS_FlexContainer_79fc18af945441edbe0ccec08520ba3f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PickerView",
+            "type": "masters",
+            "KUID": "dd443c6d40b4438fa5bbdc36c242386d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__666c7ee73ed944b1b1717adaaef07059",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentForm=kony.application.getCurrentForm().id;\nvar date = new Date();\nvar hours24=date.getHours();\nvar minute=date.getMinutes();\nvar offsetHr;\nvar offsetMn=minute*45;\nvar offsetMeridian;\nif(hours24<12){\n  offsetHr=hours24*45;\n  offsetMeridian=0;\n}else if(hours24>=12){\n  offsetHr=(hours24-12)*45;\n  offsetMeridian=45\n}\nlastOffsetHr=offsetHr;\nlastOffsetMn=offsetMn;\nlastOffsetMeridian=offsetMeridian;\noffsetHr=offsetHr+\"dp\";\noffsetMn=offsetMn+\"dp\";\noffsetMeridian=offsetMeridian+\"dp\";\nkony.print(\"setting hr offset: \"+offsetHr);\neval(currentForm).flxContainerMaster.flxSCHour.lblHr1.skin=\"sknLblCurrent\";\neval(currentForm).flxContainerMaster.flxSCHour.setContentOffset({x:\"0\",y:offsetHr}, true);\n\neval(currentForm).flxContainerMaster.flxSCMinute.lblMin1.skin=\"sknLblCurrent\";\neval(currentForm).flxContainerMaster.flxSCMinute.setContentOffset({x:\"0\",y:offsetMn}, true);\n\n\neval(currentForm).flxContainerMaster.flxSCMeridian.lblMeridian1.skin=\"sknLblMeridianFocus\";\neval(currentForm).flxContainerMaster.flxSCMeridian.setContentOffset({x:\"0\",y:offsetMeridian}, true);\n//eval(currentForm).flxContainerMaster.width = \"0%\";\n//eval(currentForm).flxContainerMaster.height = \"0%\";\n\neval(currentForm).flxContainerMaster.animate(\n            kony.ui.createAnimation({\n                \"100\": {\n                    \"width\": \"350dp\",\n                  \t\"height\": \"300dp\",\n                    \"stepConfig\": {\n                        \"timingFunction\": kony.anim.EASE\n                    }\n                }\n            }), {\n                \"delay\": 0,\n                \"iterationCount\": 1,\n                \"fillMode\": kony.anim.FILL_MODE_FORWARDS,\n                \"duration\": 0.9\n            }, {\n                \"animationEnd\": function() {}\n            });\n/*var date = new Date();\nvar hours24=date.getHours();\nvar hours = hours24 < 10 ? \"0\" +hours24 : hours24;\nvar minutes = date.getMinutes() < 10 ? \"0\" + date.getMinutes() : date.getMinutes();\nvar seconds = date.getSeconds() < 10 ? \"0\" + date.getSeconds() : date.getSeconds();\n*/",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

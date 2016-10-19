@@ -1,0 +1,41 @@
+{
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1a59a6b31874136b284b04a0f8e90fa",
+    "_srcKuid_": "010791774d08446a8eda81cdbd488654",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblMeridian0",
+        "lblMeridian1",
+        "lblMeridian2",
+        "lblMeridian3"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flxSCMeridian"
+    },
+    "id": "flxSCMeridian",
+    "ide_onScrollEnd": "AS_FlexScrollContainer_c8b8e0cdf2544905a70c47d1fd5076f7",
+    "ide_onScrolling": "AS_FlexScrollContainer_1df9227267d043bab4eca7fd95bf34d6",
+    "instanceOf": "010791774d08446a8eda81cdbd488654",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mbf107d777f74b088fb95beb90094c51",
+    "masterInstance": true,
+    "name": "kony.ui.FlexScrollContainer",
+    "parent": "flxMeridian",
+    "pf": "frmHome",
+    "topLevelInstanceKUID": "mc0039d652104e5dbf2dbec43f758fff",
+    "wType": "FlexScrollContainer"
+}

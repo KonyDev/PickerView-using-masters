@@ -1,0 +1,30 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0d68a490a65402c9f514e77a9420177",
+    "_srcKuid_": "5190280085774c54a1fe4c1298f5fc0c",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "id": "imgUp"
+    },
+    "id": "imgUp",
+    "ide_onTouchEnd": "AS_Image_a11cc6ed027647429b7d97b32ef4a1a0",
+    "instanceOf": "5190280085774c54a1fe4c1298f5fc0c",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mc2738457f434a23b2d94e4523a76367",
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "parent": "flxHour",
+    "pf": "frm2",
+    "topLevelInstanceKUID": "m07602f3ab3c4764b48698e0521b2825",
+    "wType": "Image"
+}

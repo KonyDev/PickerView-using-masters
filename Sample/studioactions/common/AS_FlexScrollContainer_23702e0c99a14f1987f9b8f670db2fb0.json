@@ -1,0 +1,23 @@
+{
+    "AS_FlexScrollContainer_23702e0c99a14f1987f9b8f670db2fb0": {
+        "id": "AS_FlexScrollContainer_23702e0c99a14f1987f9b8f670db2fb0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PickerView",
+            "type": "masters",
+            "KUID": "dd443c6d40b4438fa5bbdc36c242386d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0e821dad65ab4a8da316bcfa0ece14a5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentForm=kony.application.getCurrentForm().id;\nvar offset=eval(currentForm).flxContainerMaster.flxSCMeridian.contentOffsetMeasured.y;\nvar id=parseInt((offset/45)+1, 10) ;\nvar lblUp=\"lblMeridian\"+(id-1);\nvar lblCurrent=\"lblMeridian\"+id;\nvar lblDown=\"lblMeridian\"+(id+1);\nkony.print(\"y:- \"+offset);\nkony.print(\"lbl id to be set: \"+lblCurrent);\neval(currentForm).flxContainerMaster.flxSCMeridian[lblUp].skin=\"sknLblMeridianNormal\";\neval(currentForm).flxContainerMaster.flxSCMeridian[lblCurrent].skin=\"sknLblMeridianFocus\";\neval(currentForm).flxContainerMaster.flxSCMeridian[lblDown].skin=\"sknLblMeridianNormal\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

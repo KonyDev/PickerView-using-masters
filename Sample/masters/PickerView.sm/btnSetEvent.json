@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "sfadb083c65d41b8a85482d0aaa586dc",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "childInstances": [
+        "m6bfe74def454e428bd6af774ce6c9c8",
+        "m3480d7f1aef41a9a76e87b18920ccf4"
+    ],
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3a4995efedd440d8e29bd0915f553d0",
+    "id": "btnSetEvent",
+    "ide_onClick": "AS_Button_8b79e2e07dd647f48d76cd6a024e6efc",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fdbeee1993a842d3b4912aa573ea4598",
+    "name": "kony.ui.Button",
+    "parent": "flxTitle",
+    "pf": "PickerView",
+    "wType": "Button",
+    "zindex": 1
+}

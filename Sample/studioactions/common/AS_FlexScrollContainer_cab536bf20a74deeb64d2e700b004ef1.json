@@ -1,0 +1,23 @@
+{
+    "AS_FlexScrollContainer_cab536bf20a74deeb64d2e700b004ef1": {
+        "id": "AS_FlexScrollContainer_cab536bf20a74deeb64d2e700b004ef1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PickerView",
+            "type": "masters",
+            "KUID": "dd443c6d40b4438fa5bbdc36c242386d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f979ca6c061c456abc889542ab63c558",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentForm=kony.application.getCurrentForm().id;\nvar offset=eval(currentForm).flxContainerMaster.flxSCMinute.contentOffsetMeasured.y;\nvar id=parseInt((offset/45)+1, 10) ;\nvar lblUp=\"lblMin\"+(id-1);\nvar lblCurrent=\"lblMin\"+id;\nvar lblDown=\"lblMin\"+(id+1);\nkony.print(\"y:- \"+offset);\nkony.print(\"lbl id to be set: \"+lblCurrent);\neval(currentForm).flxContainerMaster.flxSCMinute[lblUp].skin=\"sknLblTmp\";\neval(currentForm).flxContainerMaster.flxSCMinute[lblCurrent].skin=\"sknLblCurrent\";\neval(currentForm).flxContainerMaster.flxSCMinute[lblDown].skin=\"sknLblTmp\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_5c010960485f43aabea3fab20f7f3f8f": {
+        "id": "AS_FlexContainer_5c010960485f43aabea3fab20f7f3f8f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frm2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "314b218f599541a481f6814e9533b44c"
+        },
+        "sourceObj": {
+            "itemKUID": "62358981c0d34925a43fb62f0f566c64",
+            "widgetKUID": "m7086e5a0a52436bbda5d7a96a3a9596",
+            "evt": "onHide"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

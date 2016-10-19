@@ -1,0 +1,64 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sbaf08cf6f5c4222baf5590c0bd4caa0",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m5e4af57f13148338234f70a98caeb50",
+        "ma5f32c0e62d4c4f9414a5cc3641a19b"
+    ],
+    "children": [
+        "flxHour",
+        "lblColon",
+        "flxMinute",
+        "flxMeridian"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxBody",
+    "info": null,
+    "isvisible": true,
+    "kuid": "3c626b7ad6074216a032e336e31af520",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxContainerMaster",
+    "pf": "PickerView",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

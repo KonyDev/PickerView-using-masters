@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s1a59a6b31874136b284b04a0f8e90fa",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": "50"
+    },
+    "childInstances": [
+        "mbf107d777f74b088fb95beb90094c51",
+        "me678db1d98c45919abfb835270baf0b"
+    ],
+    "children": [
+        "lblMeridian0",
+        "lblMeridian1",
+        "lblMeridian2",
+        "lblMeridian3"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxSCMeridian",
+    "ide_onScrollEnd": "AS_FlexScrollContainer_7719a0dbd8d64fadb6145db2e3a4814d",
+    "ide_onScrolling": "AS_FlexScrollContainer_23702e0c99a14f1987f9b8f670db2fb0",
+    "info": null,
+    "isvisible": true,
+    "kuid": "010791774d08446a8eda81cdbd488654",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxMeridian",
+    "pf": "PickerView",
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

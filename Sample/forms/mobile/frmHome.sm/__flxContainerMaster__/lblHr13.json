@@ -1,0 +1,33 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc4a3699a89a456e9046949e184aa860",
+    "_srcKuid_": "be4896013e4449de8a860fe1c4787d3d",
+    "_width_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "id": "lblHr13"
+    },
+    "id": "lblHr13",
+    "instanceOf": "be4896013e4449de8a860fe1c4787d3d",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "me9131c67de846559df49a82a1e7c2f0",
+    "masterInstance": true,
+    "name": "kony.ui.Label",
+    "parent": "flxSCHour",
+    "pf": "frmHome",
+    "topLevelInstanceKUID": "mc0039d652104e5dbf2dbec43f758fff",
+    "wType": "Label"
+}

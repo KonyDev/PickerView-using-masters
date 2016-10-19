@@ -1,0 +1,56 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbaf08cf6f5c4222baf5590c0bd4caa0",
+    "_srcKuid_": "m7086e5a0a52436bbda5d7a96a3a9596",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [],
+    "context": {},
+    "dataDiffs": {
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": {
+            "type": "string",
+            "value": "100%"
+        },
+        "id": "parentFlex",
+        "layoutType": 2,
+        "left": {
+            "type": "string",
+            "value": "56dp"
+        },
+        "snapGridSize": 10,
+        "snapToGrid": true,
+        "top": {
+            "type": "string",
+            "value": "444dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        },
+        "zIndex": 1
+    },
+    "id": "parentFlex",
+    "ide_onDestroy": "AS_FlexContainer_23dea63c4a04488499735c1f1dfbe98d",
+    "ide_onHide": "AS_FlexContainer_5c010960485f43aabea3fab20f7f3f8f",
+    "instanceOf": "m7086e5a0a52436bbda5d7a96a3a9596",
+    "isTopFlexInstance": true,
+    "isvisible": true,
+    "kuid": "m9400df47511471ca3ed6b6f57057f97",
+    "layouttype": 2,
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frm2",
+    "pf": "frm2",
+    "vizProps": {
+        "hidewidgethierarchy": true
+    },
+    "wType": "FlexContainer"
+}

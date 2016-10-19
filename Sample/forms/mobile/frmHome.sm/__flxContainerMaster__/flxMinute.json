@@ -1,0 +1,38 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbaf08cf6f5c4222baf5590c0bd4caa0",
+    "_srcKuid_": "f72db15d45fe4e0eb02b078993f62ec4",
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "imgUp2",
+        "flxSCMinute",
+        "imgDown2"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flxMinute"
+    },
+    "id": "flxMinute",
+    "instanceOf": "f72db15d45fe4e0eb02b078993f62ec4",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mcfe87cecf064754b5d9123ed8f37acb",
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBody",
+    "pf": "frmHome",
+    "topLevelInstanceKUID": "mc0039d652104e5dbf2dbec43f758fff",
+    "wType": "FlexContainer"
+}

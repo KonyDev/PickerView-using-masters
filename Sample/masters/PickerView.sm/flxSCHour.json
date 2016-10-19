@@ -1,0 +1,93 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s1a59a6b31874136b284b04a0f8e90fa",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "channel": "mobile",
+    "childInstances": [
+        "m06c0803f7a64de890d489356cdc1bba",
+        "mc64049b37fa4c439e4eee3eba11d928"
+    ],
+    "children": [
+        "lblHr0",
+        "lblHr1",
+        "lblHr2",
+        "lblHr3",
+        "lblHr4",
+        "lblHr5",
+        "lblHr6",
+        "lblHr7",
+        "lblHr8",
+        "lblHr9",
+        "lblHr10",
+        "lblHr11",
+        "lblHr12",
+        "lblHr13"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "contentoffset": {
+        "y": "0dp"
+    },
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxSCHour",
+    "ide_onScrollEnd": "AS_FlexScrollContainer_8f47a1c7912447198748a1ef20c83b76",
+    "ide_onScrolling": "AS_FlexScrollContainer_d17aea0f8791419781f36496a8080bb9",
+    "info": null,
+    "isvisible": true,
+    "kuid": "5b8153bf5e0e43d1932eda15035362c0",
+    "layouttype": 4,
+    "mobile": {
+        "pagingEnabled": false
+    },
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxHour",
+    "pf": "PickerView",
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "vizProps": {},
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

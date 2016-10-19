@@ -1,0 +1,33 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc4a3699a89a456e9046949e184aa860",
+    "_srcKuid_": "4410ac6fab3f4873a7ca704c71a120ca",
+    "_width_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "id": "lblMeridian0"
+    },
+    "id": "lblMeridian0",
+    "instanceOf": "4410ac6fab3f4873a7ca704c71a120ca",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mf84d63e4ceb4114982f5371b38d1ed7",
+    "masterInstance": true,
+    "name": "kony.ui.Label",
+    "parent": "flxSCMeridian",
+    "pf": "frmHome",
+    "topLevelInstanceKUID": "mc0039d652104e5dbf2dbec43f758fff",
+    "wType": "Label"
+}

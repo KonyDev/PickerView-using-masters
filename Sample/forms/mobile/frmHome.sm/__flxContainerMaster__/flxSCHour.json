@@ -1,0 +1,60 @@
+{
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1a59a6b31874136b284b04a0f8e90fa",
+    "_srcKuid_": "5b8153bf5e0e43d1932eda15035362c0",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "lblHr0",
+        "lblHr1",
+        "lblHr2",
+        "lblHr3",
+        "lblHr4",
+        "lblHr5",
+        "lblHr6",
+        "lblHr7",
+        "lblHr8",
+        "lblHr9",
+        "lblHr10",
+        "lblHr11",
+        "lblHr12",
+        "lblHr13"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flxSCHour"
+    },
+    "id": "flxSCHour",
+    "ide_onScrollEnd": "AS_FlexScrollContainer_b0aba6c0383b4a9f95b8d5d1ba9033d4",
+    "ide_onScrolling": "AS_FlexScrollContainer_9503772c80d34d088560b2fcdad6b1d1",
+    "instanceOf": "5b8153bf5e0e43d1932eda15035362c0",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m06c0803f7a64de890d489356cdc1bba",
+    "masterInstance": true,
+    "name": "kony.ui.FlexScrollContainer",
+    "parent": "flxHour",
+    "pf": "frmHome",
+    "topLevelInstanceKUID": "mc0039d652104e5dbf2dbec43f758fff",
+    "vizProps": {},
+    "wType": "FlexScrollContainer"
+}

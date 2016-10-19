@@ -1,0 +1,29 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0d68a490a65402c9f514e77a9420177",
+    "_srcKuid_": "3d0207acdd914c8ca07dc1596b07fac5",
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "id": "imgDown3"
+    },
+    "id": "imgDown3",
+    "instanceOf": "3d0207acdd914c8ca07dc1596b07fac5",
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m6b0ccec66094772b3eff53bb18d7f68",
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "parent": "flxMeridian",
+    "pf": "frmHome",
+    "topLevelInstanceKUID": "mc0039d652104e5dbf2dbec43f758fff",
+    "wType": "Image"
+}

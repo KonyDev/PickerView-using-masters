@@ -1,0 +1,23 @@
+{
+    "AS_Button_8b79e2e07dd647f48d76cd6a024e6efc": {
+        "id": "AS_Button_8b79e2e07dd647f48d76cd6a024e6efc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PickerView",
+            "type": "masters",
+            "KUID": "dd443c6d40b4438fa5bbdc36c242386d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__76eeb64d372847acba0da6217ea5177f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentForm = eval(kony.application.getCurrentForm().id);\nvar offsetHr = currentForm.flxContainerMaster.flxSCHour.contentOffsetMeasured.y;\nvar offsetMn = currentForm.flxContainerMaster.flxSCMinute.contentOffsetMeasured.y;\nvar offsetMeridian = currentForm.flxContainerMaster.flxSCMeridian.contentOffsetMeasured.y;\nvar idHr = parseInt((offsetHr / 45) + 1, 10);\nvar idMn = parseInt((offsetMn / 45) + 1, 10);\nvar lblHr = \"lblHr\" + idHr;\nvar lblMn = \"lblMin\" + idMn;\nvar textHr = parseInt(currentForm.flxContainerMaster.flxSCHour[lblHr].text);\nvar textMn = parseInt(currentForm.flxContainerMaster.flxSCMinute[lblMn].text);\nvar textMeridian;\nvar selectedTime;\nif (offsetMeridian == 0) {\n   textMeridian = \"AM\";\n} else if (offsetMeridian == 45) {\n    textMeridian = \"PM\";\n}\nif (textMeridian == \"AM\") {\n   if (textHr == 12) {\n       textHr = 00;\n    }\n} else if (textMeridian == \"PM\") {\n    if (textHr < 12) {\n        textHr = textHr + 12;\n    }\n}\nselectedTime = textHr + \":\" + textMn + \" \" + textMeridian;\n//alert(selectedTime);\nvar targetHr, targetMin;\ntargetMin = (textMn + 2) % 60;\ntargetHr = (textHr + ((textMn + 2) / 60));\nvar startDate = new Date();\nvar endDate = new Date();\nstartDate.setHours(textHr);\nstartDate.setMinutes(textMn);\nendDate.setMinutes(targetMin);\nif (targetHr > 23) {\n   targetHr = 0;\n   endDate.setDate(startDate.getDate() + 1);\n   endDate.setHours(0);\n} else {\n   endDate.setHours(targetHr);\n}\nkony.print(\"startDate: \" + startDate);\nkony.print(\"endDate: \" + endDate);\n//alert(\"startDate: \" + startDate + \"\\n\" + \"endDate: \" + endDate);\nvar eventTitle=currentForm.flxContainerMaster.txtBoxTitle.text;\nvar eventDescription=currentForm.flxContainerMaster.txtBoxDescription.text;\n\nvar startTime=startDate.getDate()+\"/\"+(parseInt(startDate.getMonth())+1)+\"/\"+startDate.getFullYear()+\" \"+startDate.getHours()+\":\"+startDate.getMinutes()+\":00\";\nvar endTime=endDate.getDate()+\"/\"+(parseInt(endDate.getMonth())+1)+\"/\"+endDate.getFullYear()+\" \"+endDate.getHours()+\":\"+endDate.getMinutes()+\":00\";\ntry {\n\tvar evtobj={\n      summary:eventTitle,\n      start:startTime,\n      finish:endTime, \n      alarm:40,\n      note:eventDescription,\n      access:\"public\"\n    };\n  \t//alert(\"evtobj: \"+JSON.stringify(evtobj));\n\tkony.phone.addCalendarEvent(evtobj);\n\t\t//Adds a event to the device calendar\n}catch(PhoneError){\n\talert(\"error in addCalendarEvent:: \"+PhoneError);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

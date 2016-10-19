@@ -1,0 +1,23 @@
+{
+    "AS_FlexScrollContainer_335191501d0349d1aa842240f6297c27": {
+        "id": "AS_FlexScrollContainer_335191501d0349d1aa842240f6297c27",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PickerView",
+            "type": "masters",
+            "KUID": "dd443c6d40b4438fa5bbdc36c242386d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bfd7af6bd78e4f9e8415d29cd689b1ca",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(lastOffsetMn===undefined){\n  lastOffsetMn=0;\n}\nvar currentForm=kony.application.getCurrentForm().id;\nvar currOffsetMn=eval(currentForm).flxContainerMaster.flxSCMinute.contentOffsetMeasured.y;\nvar remainder=currOffsetMn%45;\nif(lastOffsetMn<currOffsetMn){\n  kony.print(\"scrolled up\");\n  if(remainder<22){\n  \tcurrOffsetMn=currOffsetMn-remainder;\n  }else{\n  \tcurrOffsetMn=currOffsetMn-remainder+45;\n  }\n}else if(lastOffsetMn>currOffsetMn){\n  kony.print(\"scrolled down\");\n  if(lastOffsetMn==45){\n    currOffsetMn=0;\n  }else if(remainder<22){\n  \tcurrOffsetMn=currOffsetMn-remainder+45;\n  }else if(remainder>22){\n  \tcurrOffsetMn=currOffsetMn-remainder;\n  }\n}\neval(currentForm).flxContainerMaster.flxSCMinute.setContentOffset({x:\"0\",y:currOffsetMn}, true);\nlastOffsetMn=currOffsetMn;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

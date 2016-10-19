@@ -1,0 +1,50 @@
+{
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9f84dac3aa04cba94fc61cde57e72f2",
+    "_srcKuid_": "m7295e29c9ad4f469b33d0a988fbc8de",
+    "_width_": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "channel": "mobile",
+    "children": [
+        "flxHeader",
+        "flxBody"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flxContainerMaster"
+    },
+    "id": "flxContainerMaster",
+    "ide_postShow": "AS_FlexContainer_872811312716416aac35c4babf9a2879",
+    "ide_preShow": "AS_FlexContainer_9eb88457175642f998a754f6bbe5d048",
+    "instanceOf": "m7295e29c9ad4f469b33d0a988fbc8de",
+    "isTopFlexInstance": true,
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mc0039d652104e5dbf2dbec43f758fff",
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "vizProps": {
+        "hidewidgethierarchy": true
+    },
+    "wType": "FlexContainer"
+}
